@@ -1,0 +1,424 @@
+/* #region Navigation Bar*/
+@media (max-width: 992px) {
+  .navHyperMenuCol {
+    display: none;
+  }
+  .navHyperMenuLg {
+    display: contents;
+  }
+}
+@media (min-width: 992px) {
+  .navHyperMenuCol {
+    display: contents;
+  }
+  .navHyperMenuLg {
+    display: none;
+  }
+}
+.navigationBar {
+  background-color: #262336;
+}
+
+.navigationBarRow {
+  justify-content: center;
+  border-bottom: solid #68647d 1px;
+}
+
+.navHyperMenuCol {
+  text-align: center;
+}
+
+.navigationBar img {
+  width: 70px;
+  height: 70px;
+  border-radius: 12%;
+}
+
+.navigationBar span {
+  color: #b3b7c2;
+}
+
+.navigationBar h2 {
+  color: #6e6794;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: -webkit-center;
+}
+.navigationBar p {
+  color: #6e6794;
+  font-size: 8px;
+  text-align: -webkit-center;
+}
+
+.navHyperMenuRow a,
+.navHyperMenuCol a {
+  text-align: -webkit-center;
+  padding-right: 15px;
+  text-decoration: none;
+  font-family: monospace;
+  color: #68647d;
+}
+
+.navHyperMenuCol a {
+  padding-top: 50px;
+}
+a:hover {
+  color: white;
+}
+
+/* #endregion */
+
+/* #region Customer Support Container*/
+.customerSupport {
+  background-color: #262336;
+  text-align: center;
+}
+
+.customerSupport h3 {
+  font-size: 30px;
+  background: linear-gradient(180deg, white, #eee, #7c7a8a, #6e6794);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.customerSupport h1 {
+  font-size: 50px;
+  color: white;
+}
+
+.customerSupport p {
+  color: #68647d;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+}
+
+.tryNow {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  padding: 15px;
+  background-color: #77728e;
+  color: white;
+  border-color: #77728e;
+  border-width: 2px;
+  border-radius: 8px;
+}
+
+button:hover {
+  background-color: #b3b7c2;
+  color: #262336;
+}
+/* #endregion */
+
+/* #region Options Container*/
+.optionsRow {
+  display: flex;
+  background-color: #f29b66;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.optionsRow h3 {
+  color: white;
+  font-weight: 900px;
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+.optionsRow h4 {
+  background: linear-gradient(180deg, white, #eee, #7c7a8a, #6e6794);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 25px;
+  font-weight: 800px;
+}
+
+.optionsRow p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+}
+/* .controlPanelCol {
+  flex: 1;
+}
+
+.multiDomainHosting {
+  flex: 1;
+}
+
+.ftpService {
+  flex: 1;
+}
+
+.directSupport {
+  flex: 1;
+  padding-right: 20px;
+} */
+
+/* #endregion */
+
+/* #region Hosting Container*/
+.hostingOptions {
+  text-align: center;
+  /* 
+  background-color: #b8b8b8ce; */
+}
+
+.hostingOptionsRow {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.hostingOptions h2 {
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background: linear-gradient(180deg, #eeeeee, #e1b0f8, rgb(165, 90, 180));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  padding: 40px;
+
+  border-style: solid;
+  border-color: #e2dada;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-bottom: 0px;
+}
+.backColor {
+  background-color: #6e6794;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.hostingOptions h3 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #6e6794;
+  color: #d7d3d4;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  border-style: solid;
+  border-color: #d7d3d4;
+  border-width: 3px;
+  border-bottom: 0;
+  border-left: 3;
+  border-right: 3;
+  border-top: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.hostingOptions p {
+  font-weight: 600;
+}
+
+.disk,
+.email {
+  background-color: #ffffff;
+  color: #b3b7c2;
+}
+.bandwidth,
+.other {
+  background-color: #b3b7c2;
+  color: #ffffff;
+}
+
+.buttonP {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.hostingOptions span {
+  background: linear-gradient(180deg, #ffb277, #d9591d);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.arrow {
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 40px solid transparent;
+  border-top: 20px solid #6e6794;
+  position: absolute;
+  display: inline-block;
+  margin-left: -40px;
+}
+
+.minHostOpt p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 17px;
+  padding-bottom: 10px;
+  border-style: solid;
+  border-top: 0;
+  border-left: 2;
+  border-right: 2;
+  border-width: 2px;
+  border-color: #b3b7c2;
+  /* background-color: #ffffff; */
+}
+.usrHostOpt p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 17px;
+  padding-bottom: 10px;
+  border-style: solid;
+  border-top: 0;
+  border-left: 2;
+  border-right: 2;
+  border-width: 2px;
+  border-color: #b3b7c2;
+  /* background-color: #ffffff; */
+}
+
+.proHostingCol p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 17px;
+
+  padding-bottom: 10px;
+  border-style: solid;
+  border-top: 0;
+  border-left: 2;
+  border-right: 2;
+  border-width: 2px;
+  border-color: #b3b7c2;
+  /* background-color: #ffffff; */
+}
+
+.maxHostingCol p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 17px;
+  padding-bottom: 10px;
+  border-style: solid;
+  border-top: 0;
+  border-left: 2;
+  border-right: 2;
+  border-width: 2px;
+  border-color: #b3b7c2;
+}
+.hostingOptions button {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ee7d49;
+  padding: 15px;
+  color: white;
+  font-weight: bold;
+  border: 2px solid;
+  border-color: #6e6794;
+  border-radius: 10px;
+}
+
+.hostingOptions button:hover {
+  background-color: #262336;
+  color: #6e6794;
+}
+/* #endregion */
+
+/* #region Other Services Container*/
+.otherServices {
+  background-color: #262336;
+  /* text-align: center; */
+}
+
+.otherServices h2 {
+  text-align: center;
+
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background: linear-gradient(180deg, white, #eee, #7c7a8a, #6e6794);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+li::marker {
+  color: #ee7d49;
+}
+.otherServicesRow ul {
+  padding-left: 0px;
+}
+.otherServices li {
+  list-style: inside;
+  text-align-last: center;
+
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+}
+
+.otherServices p {
+  text-align: center;
+
+  color: #7c7a8a;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+}
+
+.shopNowBtnContainer {
+  text-align-last: center;
+}
+.otherServices button {
+  text-align: center;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ee7d49;
+  padding: 15px;
+  color: white;
+  font-weight: bold;
+  border: 2px solid;
+  border-color: #6e6794;
+  border-radius: 10px;
+}
+
+.otherServices button:hover {
+  background-color: #6e6794;
+  color: #262336;
+}
+/* #endregion */
+
+/* #region Sponsor Row */
+
+.bottomLogo {
+  background-color: #322f40;
+  text-align: center;
+}
+.bottomLogo img {
+  width: 1200px;
+}
+/* #endregion */
+
+/* #region Footer */
+
+.footer {
+  background-color: #1a1921;
+  color: #7c7a8a;
+  /* font-size: 10px; */
+}
+.logo img {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.footer h4 {
+  font-size: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.footer span {
+  color: #b3b7c2;
+}
+
+.footer p {
+  font-size: 8px;
+}
+.copyright {
+  font-size: x-small;
+}
+.socialLinks img {
+  width: 20px;
+}
+
+/* #endregion */
